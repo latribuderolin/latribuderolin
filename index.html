@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>La Tribu de Rolin | Campamentos escolares multiaventura en Moratalla, Murcia</title>
+
+
+<link href="img/logo-oscuro.png" rel="icon" type="image/png"/>
+
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&amp;display=swap" rel="stylesheet"/>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<header class="cabecera" id="cabecera">
+<div class="contenedor">
+<a class="cabecera__logo" href="#inicio">
+<img alt="La Tribu de Rolin" src="img/logo-blanco.png"/>
+</a>
+<nav class="nav">
+<ul class="nav__enlaces" id="nav-enlaces">
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#campamentos">Campamentos</a></li>
+<li><a href="#actividades">Actividades</a></li>
+<li><a href="#instalaciones">Instalaciones</a></li>
+<li><a class="js-abrir-nosotros" href="#">Nosotros</a></li>
+<li><a href="#contacto">Contacto</a></li>
+
+<li><a class="boton boton-primario nav__cta-movil" href="#contacto">Reservar ahora</a></li>
+</ul>
+</nav>
+<a class="boton boton-primario nav__cta" href="#contacto"><i class="fa-solid fa-calendar-check"></i> Reservar ahora</a>
+
+<button aria-expanded="false" aria-label="Abrir menú" class="nav__toggle" id="nav-toggle">
+<span></span><span></span><span></span>
+</button>
+</div>
+</header>
+
+<section class="hero" id="inicio">
+<div class="hero__fondo"></div>
+
+<img alt="La Tribu de Rolin" class="hero__logo-grande" src="img/logo-blanco.png"/>
+<div class="contenedor">
+<span class="hero__badge">1 Noche o 2 Noches</span>
+<h1 class="hero__titulo">
+      Vive la aventura
+      <span class="hero__titulo-acento">que recordarás siempre</span>
+</h1>
+<p class="hero__texto">
+      Campamentos escolares en plena naturaleza con todo incluido: pensión
+      completa, actividades multiaventura, piscina, monitores 24 horas y
+      mucha diversión.
+    </p>
+<div class="grupo-botones">
+<a class="boton boton-primario" href="#campamentos">Ver campamentos</a>
+<a class="boton boton-contorno-claro" href="#contacto">Contactar</a>
+</div>
+
+<div class="hero__stats">
+<div class="hero__stat">
+<i class="fa-solid fa-campground"></i>
+<span>2 o 3<br/>Días</span>
+</div>
+<div class="hero__stat">
+<i class="fa-solid fa-utensils"></i>
+<span>Pensión<br/>Completa</span>
+</div>
+<div class="hero__stat">
+<i class="fa-solid fa-people-group"></i>
+<span>Monitores<br/>24 Horas</span>
+</div>
+<div class="hero__stat">
+<i class="fa-solid fa-face-smile"></i>
+<span>Diversión<br/>Asegurada</span>
+</div>
+</div>
+</div>
+</section>
+
+<section class="franja-iconos">
+<div class="contenedor">
+<div class="franja-icono">
+<i class="fa-solid fa-campground"></i>
+<h3>Pensión completa</h3>
+<p>Comida casera 4 veces al día (desayuno, comida, merienda y cena).</p>
+</div>
+<div class="franja-icono">
+<i class="fa-solid fa-person-running"></i>
+<h3>Actividades multiaventura</h3>
+<p>Deportivas, lúdicas y de convivencia</p>
+</div>
+<div class="franja-icono">
+<i class="fa-solid fa-person-swimming"></i>
+<h3>Piscina y pozas</h3>
+<p>Disfruta del agua y de la naturaleza</p>
+</div>
+<div class="franja-icono">
+<i class="fa-solid fa-people-group"></i>
+<h3>Monitores 24 horas</h3>
+<p>Titulados y con experiencia acompañando siempre</p>
+</div>
+<div class="franja-icono">
+<i class="fa-solid fa-face-smile"></i>
+<h3>Diversión asegurada</h3>
+<p>Risas, juegos y recuerdos que duran para siempre</p>
+</div>
+</div>
+</section>
+
+<div aria-labelledby="modal-sobre-nosotros-titulo" aria-modal="true" class="modal" id="modal-sobre-nosotros" role="dialog">
+<div class="modal__fondo" data-cerrar-modal=""></div>
+<div class="modal__caja">
+<button aria-label="Cerrar" class="modal__cerrar" data-cerrar-modal="" type="button">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<span class="seccion-titulo-eyebrow">Sobre nosotros</span>
+<h3 class="modal__titulo" id="modal-sobre-nosotros-titulo">Conecta, <span class="acento">supérate,</span> vive.</h3>
+<div class="modal__texto">
+<p>
+¿Por qué “La Tribu de Rolin”?
+
+Antes de aprender, una persona necesita sentirse parte de algo.
+
+Necesita un lugar donde la respeten, la escuchen, la reten y crean en ella.
+
+Eso es una tribu.
+
+En La Tribu de Rolin creemos que las mejores experiencias no nacen de las instalaciones, ni de las actividades, ni siquiera de los paisajes. Nacen de las personas.
+
+Queremos que cada alumno que llega a nuestros campamentos deje de sentirse un número y pase a formar parte de un grupo que lo anima, lo acompaña y lo hace crecer.
+
+Porque cuando un niño siente que pertenece, se atreve.
+Se esfuerza más.
+Ayuda a los demás.
+Supera sus miedos.
+Descubre capacidades que ni él mismo conocía.
+
+Eso es lo que buscamos.
+
+No organizamos simplemente campamentos escolares.
+
+Creamos experiencias donde la aventura, la convivencia y los valores dejan una huella que permanece mucho después de volver a casa.
+
+      </p>
+<p>
+
+La palabra ROLIN tiene un significado muy especial.
+
+Es el apodo con el que mi familia y mis amigos más cercanos me han llamado desde pequeño.
+
+Nunca fue solo un nombre.
+
+Representa cercanía, confianza, familia y autenticidad.
+
+Por eso decidí que formara parte del proyecto.
+
+Porque quiero que cada colegio, cada profesor y cada alumno sientan exactamente lo mismo que siento yo cuando escucho ese nombre: que están en casa, rodeados de personas que se preocupan por ellos de verdad.
+
+Bienvenidos a La Tribu de Rolin.
+
+Donde la aventura une.
+Los valores permanecen.
+Y cada alumno encuentra su lugar.
+      </p>
+</div>
+<a class="boton boton-primario" data-cerrar-modal="" href="#campamentos">Ver campamentos</a>
+</div>
+</div>
+
+<section class="porque">
+<div class="contenedor">
+<div class="aventura-titulo reveal">
+<i class="fa-solid fa-arrow-right"></i>
+<h2>¿Por qué elegir La Tribu de Rolin?</h2>
+<i class="fa-solid fa-arrow-left"></i>
+</div>
+<div class="porque-grid reveal">
+<div class="porque-item">
+<i class="fa-solid fa-people-group"></i>
+<h3>Experiencias educativas</h3>
+<p>Programas divertidos y educativos adaptados a cada grupo.</p>
+</div>
+<div class="porque-item">
+<i class="fa-solid fa-user-graduate"></i>
+<h3>Monitores titulados</h3>
+<p>Equipo joven, formado y con experiencia. Atención 24 horas.</p>
+</div>
+<div class="porque-item">
+<i class="fa-solid fa-shield-halved"></i>
+<h3>Seguridad garantizada</h3>
+<p>Seguro de responsabilidad civil y accidentes. Instalaciones seguras en plena naturaleza.</p>
+</div>
+<div class="porque-item">
+<i class="fa-solid fa-house"></i>
+<h3>Todo incluido</h3>
+<p>Alojamiento, pensión completa, actividades, material técnico y mucho más.</p>
+</div>
+<div class="porque-item">
+<i class="fa-solid fa-clipboard-list"></i>
+<h3>Organización integral</h3>
+<p>Nos encargamos de todo para que solo te preocupes de disfrutar.</p>
+</div>
+<div class="porque-item">
+<i class="fa-solid fa-tree"></i>
+<h3>Entorno natural</h3>
+<p>Espacios únicos que fomentan el respeto y la conexión con la naturaleza.</p>
+</div>
+</div>
+<p class="porque-lema reveal">Exploramos. Aprendemos. Disfrutamos. Crecemos juntos.</p>
+</div>
+</section>
+
+<section class="campamento" id="campamentos">
+<div class="contenedor">
+
+<div class="aventura-titulo reveal">
+<i class="fa-solid fa-arrow-right"></i>
+<h2>Elige tu aventura</h2>
+<i class="fa-solid fa-arrow-left"></i>
+</div>
+
+<div class="aventura-grid reveal">
+<div class="aventura-tarjeta">
+<span class="aventura-tarjeta__opcion">Opción 1</span>
+<h3>1 noche / 2 días</h3>
+<div class="aventura-tarjeta__iconos">
+<div><i class="fa-solid fa-campground"></i><span>Pensión<br/>completa</span></div>
+<div><i class="fa-solid fa-person-running"></i><span>Actividades<br/>multiaventura</span></div>
+<div><i class="fa-solid fa-person-swimming"></i><span>Piscina<br/>y pozas</span></div>
+<div><i class="fa-solid fa-people-group"></i><span>Monitores<br/>24 horas</span></div>
+<div><i class="fa-solid fa-face-smile"></i><span>Diversión<br/>asegurada</span></div>
+</div>
+<div class="aventura-tarjeta__precio">
+<span class="cifra" id="precio-alumno-1noche">165€</span>
+<span class="detalle">por alumno<br/>todo incluido</span>
+</div>
+</div>
+<div class="aventura-centro">
+<img alt="La Tribu de Rolin" src="img/logo-oscuro.png"/>
+<p>Más que un campamento,<br/>una experiencia que<br/>recordarán toda la vida.</p>
+
+<button aria-controls="modal-sobre-nosotros" aria-haspopup="dialog" class="boton boton-contorno js-abrir-nosotros" type="button">
+          Conócenos mejor
+        </button>
+</div>
+<div class="aventura-tarjeta aventura-tarjeta--rosa">
+<span class="aventura-tarjeta__opcion">Opción 2</span>
+<h3>2 noches / 3 días</h3>
+<div class="aventura-tarjeta__iconos">
+<div><i class="fa-solid fa-campground"></i><span>Pensión<br/>completa</span></div>
+<div><i class="fa-solid fa-person-running"></i><span>Actividades<br/>multiaventura</span></div>
+<div><i class="fa-solid fa-person-swimming"></i><span>Piscina<br/>y pozas</span></div>
+<div><i class="fa-solid fa-people-group"></i><span>Monitores<br/>24 horas</span></div>
+<div><i class="fa-solid fa-face-smile"></i><span>Diversión<br/>asegurada</span></div>
+</div>
+<div class="aventura-tarjeta__precio">
+<span class="cifra" id="precio-alumno-2noches">235€</span>
+<span class="detalle">por alumno<br/>todo incluido</span>
+</div>
+</div>
+</div>
+
+<ul class="checklist reveal" style="margin: 50px 0 40px;">
+<li><i class="fa-solid fa-check"></i> Pensión completa (desde la comida del primer día hasta la comida del último día)</li>
+<li><i class="fa-solid fa-check"></i> Piscina y acceso a pozas naturales</li>
+<li><i class="fa-solid fa-check"></i> Alojamiento en bungalows o zonas habilitadas</li>
+<li><i class="fa-solid fa-check"></i> Monitores titulados 24 horas</li>
+<li><i class="fa-solid fa-check"></i> Actividades multiaventura</li>
+<li><i class="fa-solid fa-check"></i> Descenso de barrancos en Moratalla (según temporada y caudal del río)</li>
+<li><i class="fa-solid fa-check"></i> Seguro de responsabilidad civil y accidentes</li>
+<li><i class="fa-solid fa-check"></i> Material técnico para las actividades</li>
+<li><i class="fa-solid fa-check"></i> Coordinación integral del campamento</li>
+<li><i class="fa-solid fa-check"></i> Entorno natural único</li>
+<li><i class="fa-solid fa-check"></i> Muchísima diversión asegurada</li>
+</ul>
+
+<div class="programa-tabs reveal">
+<div class="programa-tabs__botones" role="tablist">
+<button class="programa-tabs__boton activo" data-programa="programa-1noche" type="button">1 noche / 2 días</button>
+<button class="programa-tabs__boton" data-programa="programa-2noches" type="button">2 noches / 3 días</button>
+</div>
+<div class="programa programa--activo" id="programa-1noche">
+<div class="programa__dia">
+<h3>Día 1</h3>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Salida del centro</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Llegada al camping</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Presentación – Normas</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Acomodación</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Juego presentación</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Baño piscina</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Comida</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Multiaventura</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Baño en pozas</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Duchas</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Cena</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Velada nocturna</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Descanso</span></div>
+</div>
+<div class="programa__dia">
+<h3>Día 2</h3>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Desayuno</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Recogida</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Descenso río</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Santuario Calasparra</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Comida</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Despedida</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Regreso al centro</span></div>
+</div>
+</div>
+<div class="programa" id="programa-2noches">
+<div class="programa__dia">
+<h3>Día 1</h3>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Salida del centro</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Llegada al camping</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Presentación – Normas</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Acomodación</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Juego presentación</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Baño piscina</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Comida</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Juegos deportivos</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Duchas</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Cena</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Velada nocturna</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Descanso</span></div>
+</div>
+<div class="programa__dia">
+<h3>Día 2</h3>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Desayuno</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Multiaventura</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Baño piscina</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Comida</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Taller</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Baño en pozas</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Cena</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Velada nocturna</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Descanso</span></div>
+</div>
+<div class="programa__dia">
+<h3>Día 3</h3>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Desayuno</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Recogida</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Descenso río</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Santuario Calasparra</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Comida</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Despedida</span></div>
+<div class="programa__item"><span class="programa__hora"></span><span class="programa__desc">- Regreso al centro</span></div>
+</div>
+</div>
+</div>
+
+<div class="info-importante reveal">
+<h4><i class="fa-solid fa-circle-info"></i> Información importante</h4>
+<ul>
+<li><i class="fa-solid fa-child-reaching"></i> Edad recomendada: Primaria y ESO</li>
+<li><i class="fa-solid fa-shirt"></i> Ropa cómoda y deportiva</li>
+<li><i class="fa-solid fa-file-lines"></i> Se enviará hoja de recomendaciones antes del campamento</li>
+<li><i class="fa-solid fa-users"></i> Grupo mínimo: 25 alumnos</li>
+<li><i class="fa-solid fa-ticket"></i> Plazas limitadas</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="actividades" id="actividades">
+<div class="contenedor">
+<div class="aventura-titulo reveal">
+<i class="fa-solid fa-arrow-right"></i>
+<h2>¿Qué Ofrecemos?</h2>
+<i class="fa-solid fa-arrow-left"></i>
+</div>
+<div class="iconos-actividades reveal">
+<div class="icono-actividad"><i class="fa-solid fa-basketball"></i><span>Actividades<br/>deportivas</span></div>
+<div class="icono-actividad"><i class="fa-solid fa-person-hiking"></i><span>Senderismo</span></div>
+<div class="icono-actividad"><i class="fa-solid fa-bullseye"></i><span>Multiaventura<br/></span></div>
+
+<div class="icono-actividad"><i class="fa-solid fa-water"></i><span>Descenso del<br/>río</span></div>
+<div class="icono-actividad"><i class="fa-solid fa-person-swimming"></i><span>Piscina<br/>y pozas</span></div>
+<div class="icono-actividad"><i class="fa-solid fa-fire"></i><span>Veladas</span></div>
+<div class="icono-actividad"><i class="fa-solid fa-people-group"></i><span>Trabajo<br/>en equipo</span></div>
+<div class="icono-actividad"><i class="fa-solid fa-church"></i><span>Santuario de
+Calasparra</span></div></div>
+
+<div class="galeria-campamento reveal">
+<div class="galeria-campamento__item">
+<img alt="Piscina del campamento" src="img/piscina.jpg"/>
+<span class="galeria-campamento__etiqueta">Piscina</span>
+</div>
+<div class="galeria-campamento__item">
+<img alt="Actividades multiaventura" src="img/multiaventura.jpg"/>
+<span class="galeria-campamento__etiqueta">Poza</span>
+</div>
+<div class="galeria-campamento__item">
+<img alt="Bungalows de alojamiento" src="img/trabajo-equipo.jpg"/>
+<span class="galeria-campamento__etiqueta">Alojamiento</span>
+</div>
+
+<div class="galeria-campamento__item">
+<img alt="Descenso de barrancos en Moratalla" src="img/descenso.jpg"/>
+<span class="galeria-campamento__etiqueta">Descenso</span>
+</div>
+<div class="galeria-campamento__item">
+<img alt="Santuario de calasparra" src="img/santuario.jpg"/>
+<span class="galeria-campamento__etiqueta">Santuario</span>
+</div>
+</div>
+</div>
+</section>
+
+<section class="instalaciones" id="instalaciones">
+<div class="contenedor">
+
+<hr/><div class="tarjeta-bus">
+<div class="tarjeta-bus__texto">
+<i class="fa-solid fa-bus"></i>
+<h4>Posibilidad de autobús</h4>
+<p>Nos encargamos de la gestión para mayor comodidad de tu centro.</p>
+</div>
+<img alt="Autobús para el traslado del grupo" class="tarjeta-bus__foto" src="img/camping-vista.jpg"/>
+</div></div>
+</section>
+
+<section class="cta-final">
+<div aria-hidden="true" class="cta-final__arboles">
+<i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i>
+</div>
+<div class="contenedor">
+<h2>¿Listo para la aventura?</h2>
+<p>Plazas limitadas. Reserva ahora y asegura una experiencia inolvidable para tu grupo.</p>
+<div class="grupo-botones">
+<a class="boton boton-blanco" href="#contacto">Reservar ahora</a>
+</div>
+</div>
+<div aria-hidden="true" class="cta-final__arboles">
+<i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i><i class="fa-solid fa-tree"></i>
+</div>
+</section>
+
+<section class="reserva" id="reserva">
+<div class="contenedor">
+<div class="aventura-titulo reveal">
+<i class="fa-solid fa-arrow-right"></i>
+<h2>Reserva y condiciones</h2>
+<i class="fa-solid fa-arrow-left"></i>
+</div>
+<div class="reserva__grid reveal">
+<div class="reserva__pasos">
+<h3>Pasos para reservar</h3>
+<div class="reserva__paso">
+<span class="reserva__numero">1</span>
+<div>
+<strong>Reserva (30%)</strong>
+<p>del total del viaje en el momento de la reserva.</p>
+</div>
+</div>
+<div class="reserva__paso">
+<span class="reserva__numero">2</span>
+<div>
+<strong>Pago restante (70%)</strong>
+<p>15 días antes de la fecha de salida del campamento.</p>
+</div>
+</div>
+<p class="reserva__nota"><i class="fa-solid fa-circle-check"></i> La reserva quedará confirmada una vez recibido el primer pago.</p>
+</div>
+<div class="reserva__condiciones">
+<h3>Condiciones importantes</h3>
+<ul>
+<li>Las reservas se realizan por riguroso orden de solicitud.</li>
+<li>En caso de cancelación, se aplicarán las condiciones indicadas en el contrato.</li>
+<li>Todos los pagos se realizarán por transferencia bancaria.</li>
+<li>El autobús no está incluido en el precio, pero podemos encargarnos de la gestión.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<section class="contacto" id="contacto">
+<div class="contenedor">
+<div class="contacto__info reveal">
+<span class="seccion-titulo-eyebrow">Contacto</span>
+<h2 class="contacto__titulo">Hablemos de tu <span class="acento">próxima aventura</span></h2>
+<p class="contacto__intro">Cuéntanos sobre tu grupo y te ayudamos a preparar el campamento perfecto.</p>
+<div class="contacto__dato">
+<i class="fa-solid fa-phone"></i>
+<div><strong>Teléfono</strong><a href="tel:+34644271995">603 02 63 30</a></div>
+</div>
+<div class="contacto__dato">
+<i class="fa-solid fa-envelope"></i>
+<div><strong>Email</strong><a href="mailto:latribuderolin@gmail.es">latribuderolin@gmail.es</a></div>
+</div>
+</div>
+<form action="https://api.web3forms.com/submit" class="form-contacto reveal" id="form-contacto" method="POST">
+
+<input name="access_key" type="hidden" value="a2222438-212f-4d43-aada-ae89d619c321"/>
+<input name="subject" type="hidden" value="Nuevo mensaje desde la web de La Tribu de Rolin"/>
+<input name="from_name" type="hidden" value="Web La Tribu de Rolin"/>
+
+<input autocomplete="off" name="botcheck" style="display:none" tabindex="-1" type="checkbox"/>
+<div class="form-fila">
+<div class="campo">
+<label for="nombre">Nombre</label>
+<input id="nombre" name="nombre" required="" type="text"/>
+</div>
+<div class="campo">
+<label for="colegio">Colegio / Grupo</label>
+<input id="colegio" name="colegio" type="text"/>
+</div>
+</div>
+<div class="form-fila">
+<div class="campo">
+<label for="email">Email</label>
+<input id="email" name="email" required="" type="email"/>
+</div>
+<div class="campo">
+<label for="telefono">Teléfono</label>
+<input id="telefono" name="telefono" type="tel"/>
+</div>
+</div>
+<div class="campo">
+<label for="mensaje">Mensaje</label>
+<textarea id="mensaje" name="mensaje" placeholder="Cuéntanos el número de alumnos, fechas aproximadas..." required=""></textarea>
+</div>
+<button class="boton boton-primario" type="submit">Enviar mensaje</button>
+<p class="form-mensaje" id="form-mensaje"></p>
+</form>
+</div>
+</section>
+
+<footer class="footer">
+<div class="contenedor">
+<div class="footer__top">
+<div class="footer__marca">
+<img alt="La Tribu de Rolin" class="footer__logo" src="img/logo-blanco.png"/>
+<p>En La Tribu de Rolin creemos en la educación a través de la naturaleza, la aventura y los valores. Creamos momentos únicos que se quedan para siempre.</p>
+<div class="footer__social">
+
+<a aria-label="Instagram" href="https://www.instagram.com/latribuderolin/"><i class="fa-brands fa-instagram"></i></a>
+</div>
+</div>
+<div class="footer__col">
+<h4>Enlaces</h4>
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#campamentos">Campamentos</a></li>
+<li><a href="#actividades">Actividades</a></li>
+<li><a href="#instalaciones">Instalaciones</a></li>
+<li><a class="js-abrir-nosotros" href="#">Nosotros</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</div>
+<div class="footer__col">
+<h4>Contacto</h4>
+<ul>
+<li><i class="fa-solid fa-phone"></i> 603 02 63 30</li>
+<li><i class="fa-solid fa-envelope"></i> latribuderolin@gmail.es</li>
+<li><i class="fa-solid fa-location-dot"></i> Moratalla, Murcia</li>
+</ul>
+</div>
+<div class="footer__col">
+<h4>Legal</h4>
+<ul>
+<li><a href="#">Aviso legal</a></li>
+<li><a href="#">Política de privacidad</a></li>
+<li><a href="#">Política de cookies</a></li>
+</ul>
+</div>
+</div>
+<div class="footer__bottom">
+
+<span>© <span id="anio-actual">2026</span> La Tribu de Rolin. Todos los derechos reservados.</span>
+<span class="footer__lema"><i class="fa-solid fa-tree"></i> Diseñado para vivir la aventura. <i class="fa-solid fa-tree"></i></span>
+</div>
+</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
